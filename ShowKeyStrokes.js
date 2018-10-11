@@ -22,7 +22,7 @@
 	popwin.style.fonFamily = '"Courier New", monospace';
 	popwin.style.fontSize = "1.5em";
  }
- @@ -27,26 +25,25 @@ function killContainer(){
+function killContainer(){
 function addKeyStroke(txt){
 	setTimeout(()=>{
 		document.getElementById("popwindow").innerText = document.getElementById("popwindow").innerText+txt;
